@@ -1,10 +1,10 @@
 # Mac App Store Submission Guide
 
 Since v0.34.0, Electron allows submitting packaged apps to the Mac App Store
-(MAS). This guide provides information on: how to submit your app and the
+(MAS). This guide provides information on how to submit your app and the
 limitations of the MAS build.
 
-**Note:** Submitting an app to Mac App Store requires enrolling [Apple Developer
+**Note:** Submitting an app to Mac App Store requires enrolling in the [Apple Developer
 Program][developer-program], which costs money.
 
 ## How to Submit Your App
@@ -21,7 +21,7 @@ Apple. You can follow these [existing guides][nwjs-guide] on web.
 
 ### Get Team ID
 
-Before signing your app, you need to know the Team ID of your account. To locate
+Before signing your app, you will need to know the Team ID of your account. To locate
 your Team ID, Sign in to [Apple Developer Center](https://developer.apple.com/account/),
 and click Membership in the sidebar. Your Team ID appears in the Membership
 Information section under the team name.
@@ -217,7 +217,7 @@ more details.
 
 ## Cryptographic Algorithms Used by Electron
 
-Depending on the country and region you are located, Mac App Store may require
+Depending on your country and region where you are located the Mac App Store may require
 documenting the cryptographic algorithms used in your app, and even ask you to
 submit a copy of U.S. Encryption Registration (ERN) approval.
 
